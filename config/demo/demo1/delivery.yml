@@ -46,7 +46,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.health.probes.enabled="true" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: acrbs.azurecr.io/acrbs/acrbs/workloads/demo1-demo@sha256:03115be81860c78417fac499254e40c100def8dd0271266516ac75f50dc08f81
+        image: acrbs.azurecr.io/acrbs/acrbs/workloads/demo1-demo@sha256:4b18c0da88945656ae7f4112aff436fcb801e78ee0aac6c78dc819314da5fc0a
         livenessProbe:
           httpGet:
             path: /livez
