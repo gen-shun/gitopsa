@@ -27,7 +27,7 @@ spec:
           spring-boot-convention/spring-boot-actuator-probes
           spring-boot-convention/app-live-view-appflavour-check
           spring-boot-convention/app-live-view-connector-boot
-#          spring-boot-convention/app-live-view-appflavours-boot
+          spring-boot-convention/app-live-view-appflavours-boot
         developer.conventions/target-containers: workload
       labels:
         app.kubernetes.io/component: run
